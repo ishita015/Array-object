@@ -1,0 +1,18 @@
+<h3 *ngFor="let user of peopleArray">
+  {{user.name}}
+</h3>
+---------------------------------------------------------
+<p>Nested for loop  </p>
+<h4 *ngFor="let pro of items"> {{pro.name}}
+  <h3 *ngFor="let items1 of pro.subMenuItem">
+    {{items1.name}}
+    <h3 *ngFor="let info of items1.subMenuItem1">
+      {{info.name}}
+    </h3>
+  </h3>
+</h4>
+
+
+
+
+
