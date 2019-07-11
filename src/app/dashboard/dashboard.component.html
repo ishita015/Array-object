@@ -1,3 +1,15 @@
-<p>
-  dashboard works!
-</p>
+<h3>
+  forEach , filter , map , sort , reduce
+</h3>
+<input type="radio" name="radio1" (click)="changevalue(true)">True
+<input type="radio" name="radio1" (click)="changevalue(false)">False
+
+<div *ngIf="invalid ; then thenblock ; else elseblock">
+  This is valid data
+</div>
+
+<ng-template #elseblock>
+  <div *ngIf="!invalid">
+    This is not valid data
+  </div>
+</ng-template>

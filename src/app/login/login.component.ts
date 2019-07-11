@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
     console.log("uuu",i);
     this.function();
     
-    var i = 2;
+    // var i = 2;
     var j = 2;
     var equal = (i == j)
     console.log(equal);
